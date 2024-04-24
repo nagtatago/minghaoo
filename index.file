@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('p.jpg');
+      background-size: cover;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+.login-form {
+  background: rgba(197, 72, 109, 0.5); /* Transparent dark pink background */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white; /* White text color for better visibility */
+}
+
+
+
+    .login-form h2 {
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    button {
+      width: 100%;
+      padding:8px;
+      margin-bottom: 8px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color:#ff9da3;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color:#ff9da3;
+    }
+
+    .social-login {
+      margin-top: 18px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+    }
+
+    .social-icons img {
+      width: 30px;
+      height: 30px;
+    }
+	 body {
+      color: #fff; /* Setting the text color to white */
+      margin: 0;
+      padding: 0;
+      background-color: #000; /* Optional: Setting background color to black */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-form">
+      <h2>Login</h2>
+      <form action="#">
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+      <div class="social-login">
+        <span>Or login with:</span>
+        <div class="social-icons">
+          <a href="#"><img src="fb.png" alt="Facebook"></a>
+          <a href="#"><img src="goog.png" alt="Google"></a>
+          <a href="#"><img src="tt.png" alt="TikTok"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
